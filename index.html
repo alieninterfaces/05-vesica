@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <style>
+      .logo {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        width: 32px;
+        height: 32px;
+        z-index: 2;
+        background-image: url(https://app.spline.design/_assets/_icons/icon_favicon32x32.png);
+        background-size: cover;
+      }
+      .logo:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <main>
+        <div class="top">
+          <h1>Lojuare</h1>
+        </div>
+        <div class="mid"></div>
+        <div class="bottom">
+          <h2>apreapbang</h2>
+          <div class="panel">
+            <div>one done</div>
+            <div>aaskdjf</div>
+          </div>
+
+          <div class="panel">
+            <div>one done</div>
+            <div>aaskdjf</div>
+          </div>
+        </div>
+      </main>
+      <div class="pills">
+        <div class="pill-container">
+          <div class="pill"></div>
+          <div class="pill-label">one</div>
+        </div>
+
+        <div class="pill-container">
+          <div class="pill"></div>
+          <div class="pill-label">two</div>
+        </div>
+
+        <div class="pill-container">
+          <div class="pill"></div>
+          <div class="pill-label">three</div>
+        </div>
+      </div>
+    </div>
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
+    ></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@splinetool/loader": "https://unpkg.com/@splinetool/loader@0.9.263/build/SplineLoader.js",
+          "three": "https://unpkg.com/three@0.149.0/build/three.module.js",
+          "three/": "https://unpkg.com/three@0.149.0/"
+        }
+      }
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
