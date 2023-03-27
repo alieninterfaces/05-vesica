@@ -15,6 +15,9 @@ canvas {
   position: fixed;
   top: 0;
   right: 0;
+  width: min(100vw, 600px) !important;
+  height: auto !important;
+  aspect-ratio: 0.6;
 }
 
 #app {
