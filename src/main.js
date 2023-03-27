@@ -13,8 +13,6 @@ camera.position.z = -5;
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(width * canvasScale, height * canvasScale);
-renderer.domElement.style.width = "100%";
-renderer.domElement.style.height = "100%";
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 renderer.shadowMapSoft = true;

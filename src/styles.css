@@ -8,13 +8,13 @@ body {
   color: white;
   font-family: "Roboto", sans-serif;
   background: #000;
-  background: linear-gradient(-45deg, #142641 50%, #d9a48a 75%);
+  background: linear-gradient(-45deg, #142641 50%, #d9a48a 90%);
 }
 canvas {
   display: block;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 #app {

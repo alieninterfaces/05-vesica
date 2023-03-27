@@ -29,9 +29,9 @@ const circles = [
   },
   {
     speed: 0.015,
-    radius: 0.7,
+    radius: 0.5,
     color: 0xff9900,
-    position: { x: 4, y: 2, z: 11 },
+    position: { x: 4, y: 2, z: 10.5 },
   },
   {
     speed: 0.022,
