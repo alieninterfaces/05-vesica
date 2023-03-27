@@ -42,21 +42,51 @@
       </main>
       <div class="pills">
         <div class="pill-container">
-          <div class="pill"></div>
+          <div class="pill">
+            <svg>
+              <g transform="translate(25, 60) rotate(-45)">
+                <rect
+                  transform="translate(2, 2)"
+                  x="0"
+                  y="0"
+                  width="5"
+                  height="30"
+                  fill="white"
+                ></rect>
+                <rect
+                  transform="translate(-5, -2)"
+                  x="0"
+                  y="0"
+                  width="5"
+                  height="40"
+                  fill="#142641"
+                ></rect>
+                <rect
+                  transform="translate(-14, 0)"
+                  x="0"
+                  y="0"
+                  width="5"
+                  height="35"
+                  fill="#142641"
+                ></rect>
+              </g>
+            </svg>
+          </div>
           <div class="pill-label">one</div>
         </div>
 
         <div class="pill-container">
-          <div class="pill"></div>
+          <div class="pill">33S</div>
           <div class="pill-label">two</div>
         </div>
 
         <div class="pill-container">
-          <div class="pill"></div>
+          <div class="pill">327</div>
           <div class="pill-label">three</div>
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
     <script
       async
       src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
@@ -64,12 +94,16 @@
     <script type="importmap">
       {
         "imports": {
-          "@splinetool/loader": "https://unpkg.com/@splinetool/loader@0.9.263/build/SplineLoader.js",
-          "three": "https://unpkg.com/three@0.149.0/build/three.module.js",
-          "three/": "https://unpkg.com/three@0.149.0/"
+          "three": "https://unpkg.com/three@0.110.0/build/three.module.js",
+          "three/": "https://unpkg.com/three@0.110.0/"
         }
       }
     </script>
+    <script defer src="src/libs/mod3.js"></script>
+    <script defer src="src/libs/Three.js"></script>
+    <script defer src="src/libs/perlin.js"></script>
+    <script defer src="src/libs/CPerlin.js"></script>
+    <script src="./src/config.js"></script>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

@@ -61,6 +61,11 @@ main {
   width: 70px;
   height: 90px;
   background: linear-gradient(-45deg, #18f4cc 0%, #0f9990 75%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .pill-container:nth-child(2) .pill {
@@ -79,4 +84,12 @@ main {
   margin-top: 10px;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+#gui {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0.7;
 }
